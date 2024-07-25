@@ -19,8 +19,8 @@ about_content: | # this will include new lines to allow paragraphs
   My name is Sebastien Coll and I am a 2024 Computer Engineering graduate (University of Ottawa). I have experience full stack web development, mobile development, embedded systems, test automation and tooling. I have worked at a number of companies gaining teamwork and leadership skills.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects 
+    layout: list
     content:
       - layout: top-middle
         title: Sippe
@@ -28,26 +28,26 @@ content:
           React Native, Firebase Suite, GCP, Stripe
         description: | 
           Mobile application for streamlined food and drinks ordering, specialized in events. I learned a lot about how to make a mobile app from scratch and how to deal with real time changes to make it a seemless experience for the user.
-    - layout: top-middle
-        title: Agriculture robot
-        quote: >
-          Arduino, Raspberry Pi, C, Python, React Native, Firebase Suite
-        description: | 
-          Mobile-controlled/autonomous robot with multiple sensors and motors used to gather information of a garden or agricultural lands. Great learning experience for robotics, embedded systems, and mobile app development.
+      - layout: top-middle
+          title: Agriculture robot
+          quote: >
+            Arduino, Raspberry Pi, C, Python, React Native, Firebase Suite
+          description: | 
+            Mobile-controlled/autonomous robot with multiple sensors and motors used to gather information of a garden or agricultural lands. Great learning experience for robotics, embedded systems, and mobile app development.
 
-    - layout: top-middle
-        title: Gamekeeper WebApp
-        quote: >
-          React
-        description: | 
-          Web application used by scorekeepers in the Ottawa/Gatineau Region to mark hockey games in real time. Built in pure React, this project was a great way to learn how to make a web app from scratch. I learned a lot about user experience and how to make an application simple to use. It is still in use today.
+      - layout: top-middle
+          title: Gamekeeper WebApp
+          quote: >
+            React
+          description: | 
+            Web application used by scorekeepers in the Ottawa/Gatineau Region to mark hockey games in real time. Built in pure React, this project was a great way to learn how to make a web app from scratch. I learned a lot about user experience and how to make an application simple to use. It is still in use today.
 
-    - layout: top-middle
-        title: Garden web store
-        quote: >
-          React, MongoDB, Express, Node.js (MERN)
-        description: | # this will include new lines to allow paragraphs
-          Simple web store for nurseries to sell their products. First project I made using the MERN stack. I learned a lot about how to make a full stack web app. I also learned a lot about how to make a good looking website and how to make it user friendly.
+      - layout: top-middle
+          title: Garden web store
+          quote: >
+            React, MongoDB, Express, Node.js (MERN)
+          description: | # this will include new lines to allow paragraphs
+            Simple web store for nurseries to sell their products. First project I made using the MERN stack. I learned a lot about how to make a full stack web app. I also learned a lot about how to make a good looking website and how to make it user friendly.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
