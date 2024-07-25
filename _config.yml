@@ -53,18 +53,40 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-          Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        title: Ford Motor Company
+        sub_title: Systems Software Developer (Kanata, Ontario)
+        caption: January 2023 - Present
+        description: |
+          Develop, support and maintain gRPC, SOME/IP and CAN tools (Python, SOMEIP, ARXML, gRPC, protobuf) <br>
+          Test suites support and automation for embedded systems <br>
+          TCU development (Python, Linux, TCP, UDP) <br>
+          Create multiple tools and reports to support developers and team leaders (Python)
+      - layout: left
+        title: Ford Motor Company
+        sub_title: Systems Software Intern (Kanata, Ontario)
+        caption: May 2022 - September 2022
+        description: |
+          Maintain test suites and automate them to run on hardware <br>
+          Platform and tooling (Python, Jenkins, GIT) <br>
+          TCU development, test and automation <br>
+      - layout: left
+        title: Cisco Systems Canada
+        sub_title: Technical Intern (Kanata, Ontario)
+        caption: September 2021 - December 2021
+        description: |
+          Develop and support the company's test automation framework (Python, Jenkins, GIT) <br>
+          Add automation scripts to already existing test features <br>
+          Automate of multiple nightly tests runs with code coverage <br>
+      - layout: left
+        title: Motorola Solutions Inc.
+        sub_title: Full Stack Software COOP (Gatineau, Quebec)
+        caption: January 2021 - May 2021
+        description: |
+          Revamped a web application using NodeJS, PostgreSQL, Angular, Express, Supertest and Jest <br>
+          Presented work to managers, product owners, stakeholders, and R&D teams. <br>
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: University of Ottawa
