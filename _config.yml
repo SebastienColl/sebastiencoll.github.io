@@ -16,7 +16,8 @@ linkedin_username: sébastiencoll
 # about_title: About Me
 about_profile_image: images/1654479118511.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  My name is Sebastien Coll and I am a 2024 Computer Engineering graduate (University of Ottawa). I have experience full stack web development, mobile development, embedded systems, test automation and tooling. I have worked at a number of companies gaining teamwork and leadership skills.
+  My name is Sebastien Coll and I am a 2024 Computer Engineering graduate (University of Ottawa). I have experience full stack web development, mobile development, embedded systems, test automation and tooling. I have worked at a number of companies gaining teamwork and leadership skills. <br>
+  Fully bilingual in French and English.
 
 content:
   - title: Projects
@@ -24,27 +25,41 @@ content:
     content:
       - layout: top-middle
         title: Sippe
-        # Multiple images can be added by separating them with a comma
-        image: images/SippeEvents.png, images/SippeEvents.png
-
         quote: >
           React Native, Firebase Suite, GCP, Stripe
         description: |
-          Mobile application for streamlined food and drinks ordering, specialized in events. I learned a lot about how to make a mobile app from scratch and how to deal with real time changes to make it a seemless experience for the user.
+          Mobile application for streamlined food and drinks ordering, specialized in events. I learned a lot about how to make a mobile app from scratch and how to deal with real time changes to make it a seemless experience for the user. <br>
+          <div style="display: flex; justify-content: center;">
+          <img src="images/SippeEvents.png" alt="Sippe" style="width: 15%; height: 30%;">
+          <span style="width: 10%;"></span>
+          <img src="images/SippeMenu.png" alt="Sippe Menu" style="width: 15%; height: 30%;">
+          <span style="width: 10%;"></span>
+          <img src="images/SippeOrder.png" alt="Sippe Order" style="width: 15%; height: 30%;">
+          <span style="width: 10%;"></span>
+          <img src="images/QR.png" alt="Sippe QR" style="width: 15%; height: 30%;">
+          </div>
       - layout: top-middle
         title: Agriculture robot
         quote: >
           Arduino, Raspberry Pi, C, Python, React Native, Firebase Suite
         description: |
           Mobile-controlled/autonomous robot with multiple sensors and motors used to gather information of a garden or agricultural lands. Great learning experience for robotics, embedded systems, and mobile app development.
-
+          <div style="display: flex; justify-content: center;">
+          <video width="50%" height="50%" controls>
+            <source src="images/Robot.mp4" type="video/mp4">
+          </video>
+          <span style="width: 10%;"></span>
+          <img src="images/Robot.jpg" alt="Robot" style="width: 20%; height: 10%;">
+          </div>
       - layout: top-middle
         title: Gamekeeper WebApp
         quote: >
           React
         description: |
           Web application used by scorekeepers in the Ottawa/Gatineau Region to mark hockey games in real time. Built in pure React, this project was a great way to learn how to make a web app from scratch. I learned a lot about user experience and how to make an application simple to use. It is still in use today.
-
+          <div style="display: flex; justify-content: center;">
+          <img src="images/Scorekeep.png" alt="Gamekeeper" style="width: 50%; height: 50%;">
+          </div>
       - layout: top-middle
         title: Garden web store
         quote: >
