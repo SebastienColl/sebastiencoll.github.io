@@ -14,7 +14,7 @@ darkmode: false
 linkedin_username: sébastiencoll
 # About Section
 # about_title: About Me
-about_profile_image: images/1654479118511.jpg
+about_profile_image: images/1654479118511.jpeg
 about_content: | # this will include new lines to allow paragraphs
   My name is Sebastien Coll and I am a 2024 Computer Engineering graduate (University of Ottawa). I have experience full stack web development, mobile development, embedded systems, test automation and tooling. I have worked at a number of companies gaining teamwork and leadership skills.
 
@@ -24,6 +24,9 @@ content:
     content:
       - layout: top-middle
         title: Sippe
+        # Multiple images can be added by separating them with a comma
+        image: images/SippeEvents.png, images/SippeEvents.png
+
         quote: >
           React Native, Firebase Suite, GCP, Stripe
         description: |
@@ -48,7 +51,13 @@ content:
           React, MongoDB, Express, Node.js (MERN)
         description: | # this will include new lines to allow paragraphs
           Simple web store for nurseries to sell their products. First project I made using the MERN stack. I learned a lot about how to make a full stack web app. I also learned a lot about how to make a good looking website and how to make it user friendly.
-
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: University of Ottawa
+        caption: 2019 - 2024
+        sub_title: BSc Computer Engineering (GPA - 3.9/4)
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -85,13 +94,6 @@ content:
           Revamped a web application using NodeJS, PostgreSQL, Angular, Express, Supertest and Jest <br>
           Presented work to managers, product owners, stakeholders, and R&D teams. <br>
 
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: University of Ottawa
-        caption: 2019 - 2024
-        sub_title: BSc Computer Engineering
 # Build settings
 remote_theme: sproogen/resume-theme
 
